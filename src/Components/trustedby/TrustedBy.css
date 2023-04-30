@@ -1,0 +1,26 @@
+.trustedBy {
+  background-color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.trustedBy .container {
+  width: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: lightgray;
+  font-weight: 500;
+}
+.trustedBy .container span {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.trustedBy .container img {
+  height: 70px;
+  width: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=TrustedBy.css.map */

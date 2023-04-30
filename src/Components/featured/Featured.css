@@ -1,0 +1,74 @@
+.featured {
+  height: 580px;
+  display: flex;
+  justify-content: center;
+  background-color: #02431B;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.featured .container {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featured .container .left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.featured .container .left h1 {
+  font-size: 40px;
+}
+.featured .container .left .search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+}
+.featured .container .left .search .searchInput {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.featured .container .left .search .searchInput img {
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+}
+.featured .container .left .search .searchInput input {
+  border: none;
+  outline: none;
+}
+.featured .container .left .search button {
+  width: 120px;
+  height: 50px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.featured .container .left .popular {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.featured .container .left .popular span {
+  font-weight: 300;
+}
+.featured .container .left .popular button {
+  color: white;
+  background-color: #02431B;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.featured .container .right {
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=Featured.css.map */
